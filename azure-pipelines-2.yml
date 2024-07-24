@@ -1,7 +1,7 @@
 variables: 
-  -group: vargroup
-  -name: connstr
-   values:test
+  - group: vargroup
+  - name: connstr
+    value: test
 
 pool:
   name: Default
@@ -10,6 +10,7 @@ pool:
 steps:
 - script: |
    echo Hello, $(inputvar)
+   echo variable group $(var1)
   displayName: 'stage1'
 
 - powershell: 
