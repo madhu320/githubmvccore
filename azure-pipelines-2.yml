@@ -1,5 +1,5 @@
 variables:
-  conn: test
+  connstr: test
 
 pool:
   name: Default
@@ -7,13 +7,13 @@ pool:
 
 steps:
 - script: |
-   echo Hello, world!
+   echo Hello, $(connstr)
   displayName: 'stage1'
 
 - powershell: 
-    write-Host Add other tasks to build, test, and deploy your project.
+    write-Host from powershell $(connstr) 
   displayName: 'stage2'
 
 - script: |
-    echo Hello from script
+    echo Hello from script $(connstr)
   displayName: stage3
