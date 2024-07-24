@@ -1,5 +1,6 @@
-variables:
-  connstr: test
+variables: 
+  -name: connstr
+   values:test
 
 pool:
   name: Default
@@ -7,11 +8,11 @@ pool:
 
 steps:
 - script: |
-   echo Hello, $(connstr)
+   echo Hello, $(inputvar)
   displayName: 'stage1'
 
 - powershell: 
-    write-Host from powershell $(connstr) 
+    write-Host Hello from powershell $(connstr) 
   displayName: 'stage2'
 
 - script: |
