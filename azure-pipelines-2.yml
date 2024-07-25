@@ -1,5 +1,11 @@
+
+variables:
+    - name: yamlvar
+      value : i am yaml variable
+    - group : somevargroup
 pool:
   name: Default
+
 
 stages:
   - stage: DevStage
@@ -7,7 +13,9 @@ stages:
       - job: getlatest
         steps:
           - script: |
-             echo stage1job1step1
+             echo $(yamlvar)
+             echo $(inputvar)
+             echo $(vargroup1)
             displayName: Step1 
       - job: buildstage
         steps:
