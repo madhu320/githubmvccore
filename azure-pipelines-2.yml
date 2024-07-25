@@ -21,7 +21,7 @@ stages:
             displayName: Step1
             name: StepName1
           - script: |
-             echo $(yamlvar)
+             echo $(StepName1.yamlvar)
             displayName: Step2 
             name: StepName2
 
