@@ -1,10 +1,23 @@
+pool:
+  name: Default
+
 stages:
   - stage: DevStage
     jobs:
       - job: getlatest
         steps:
-          - script:
-          - task: DotNetCoreCLI@2   
+          - script: |
+             echo stage1job1step1
+      - job: buildstage
+        steps:
+          - script :
+             echo stage1job2step2
 
   - stage: TestStage
-  
+    jobs:
+      - job: preparingingdata
+        steps:
+          - script: 
+             echo teststagepreparingdatastep1
+
+
