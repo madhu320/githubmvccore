@@ -40,7 +40,7 @@ stages:
     jobs:
       - job: preparingingdata
         variables:
-            teststagevar1 : $[ stageDependencies.DevStage.getlatest.outputs['StepName1.yamlvar'] ]
+            teststagevar1 : $[stageDependencies.DevStage.getlatest.outputs['StepName1.yamlvar'] ]
         steps:
           - script: 
              echo $(teststagevar1)
