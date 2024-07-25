@@ -16,7 +16,7 @@ stages:
              echo $(yamlvar)
              echo $(inputvar)
              echo $(vargroup1)
-             echo "##vso[task.setvariable variable=yamlvar;]this yaml var is changed"
+             echo "##vso[task.setvariable variable=yamlvar;isoutput=true]this yaml var is changed"
              echo $(yamlvar)
             displayName: Step1
             name: StepName1
@@ -26,9 +26,12 @@ stages:
             name: StepName2
 
       - job: buildstage
+        dependsOn: getlatest
+        variables:
+          buildstagevar: $[ dependencies.getlatest.outputs['StepNmae1.yamlvar']]
         steps:
           - script : |
-             echo $(yamlvar)
+             echo $(buildstagevar)
             displayName: Step3
             name: StepName3
 
