@@ -28,8 +28,9 @@ stages:
       - job: buildstage
         steps:
           - script : |
-             echo stage1job2step2
-            displayName: Step2
+             echo $(yamlvar)
+            displayName: Step3
+            name: StepName3
 
   - stage: TestStage
     jobs:
