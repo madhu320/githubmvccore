@@ -36,8 +36,11 @@ stages:
             name: StepName3
 
   - stage: TestStage
+    dependsOn: DevStage
     jobs:
       - job: preparingingdata
+        variables:
+            teststagevar1 : $[stageDependencies.DevStage.getlatest.outputs['StepName1.yamlvar'] ]
         steps:
           - script: 
              echo $(yamlvar)
