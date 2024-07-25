@@ -1,33 +1,10 @@
-variables: 
-  - group: vargroup
-  - name: connstr
-    value: test
+stages:
+  - stage: DevStage
+    jobs:
+      - job: getlatest
+        steps:
+          - script:
+          - task: DotNetCoreCLI@2   
 
-parameters:
-  - name: environment
-    displayName: Which Environment to deploy?
-    type: string
-    default: 'develop'
-    values:
-    - develop
-    - preproduction
-    - production
-
-pool:
-  name: Default
+  - stage: TestStage
   
-
-steps:
-- script: |
-   echo Hello ${{parameters.environment}} 
-   echo Hello, $(inputvar)
-   echo variable group $(var1)
-  displayName: 'stage1'
-
-- powershell: 
-    write-Host Hello from powershell $(connstr) 
-  displayName: 'stage2'
-
-- script: |
-    echo Hello from script $(connstr)
-  displayName: stage3
