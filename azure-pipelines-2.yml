@@ -37,6 +37,8 @@ stages:
       - job: preparingingdata
         steps:
           - script: 
-             echo teststagepreparingdatastep1
+             echo $(yamlvar)
+            displayName: Step4
+            name: StepName4
 
 
