@@ -8,10 +8,12 @@ stages:
         steps:
           - script: |
              echo stage1job1step1
+            displayName: Step1 
       - job: buildstage
         steps:
-          - script :
+          - script : |
              echo stage1job2step2
+            displayName: Step2
 
   - stage: TestStage
     jobs:
