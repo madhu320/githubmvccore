@@ -1,4 +1,4 @@
-
+ 
 variables:
     - name: yamlvar
       value : i am yaml variable
