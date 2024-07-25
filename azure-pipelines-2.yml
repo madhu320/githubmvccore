@@ -28,7 +28,7 @@ stages:
       - job: buildstage
         dependsOn: getlatest
         variables:
-          buildstagevar: $[ dependencies.getlatest.outputs['StepNmae1.yamlvar']]
+          buildstagevar: $[ dependencies.getlatest.outputs['StepName1.yamlvar']]
         steps:
           - script : |
              echo $(buildstagevar)
