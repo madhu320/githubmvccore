@@ -16,7 +16,15 @@ stages:
              echo $(yamlvar)
              echo $(inputvar)
              echo $(vargroup1)
-            displayName: Step1 
+             echo "##vso[task.setvaraible.variable=yamlvar;]this yaml var is changed"
+             echo $(yamlvar)
+            displayName: Step1
+            name: StepName1
+          - script: |
+             echo $(yamlvar)
+            displayName: Step2 
+            name: StepName2
+            
       - job: buildstage
         steps:
           - script : |
