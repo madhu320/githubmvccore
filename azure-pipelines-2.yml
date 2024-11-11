@@ -68,7 +68,7 @@ stages:
        - job : 
          variables:
             var123: $[stageDependencies.teststage.job1.outputs['teststagestep1.vargroup1'] ]
-         displayName: job1
+         displayName: job3
          steps: 
            - script: 
               echo "Started with buildstage job1"
