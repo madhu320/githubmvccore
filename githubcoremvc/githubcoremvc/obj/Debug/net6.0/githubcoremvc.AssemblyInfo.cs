@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("githubcoremvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93a547dcbe8ff4aa16f5f2ca1ac3db03f763bdd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("githubcoremvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("githubcoremvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

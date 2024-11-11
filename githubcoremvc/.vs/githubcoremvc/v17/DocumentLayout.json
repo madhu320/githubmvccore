@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0475DEC5-FBB9-4F4E-B7A4-8E59CFE53AA6}|githubcoremvc\\githubcoremvc.csproj|e:\\questpond_classes\\devops\\devops_solution\\githubcoremvc\\githubcoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0475DEC5-FBB9-4F4E-B7A4-8E59CFE53AA6}|githubcoremvc\\githubcoremvc.csproj|solutionrelative:githubcoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\githubcoremvc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "githubcoremvc\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\githubcoremvc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "githubcoremvc\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T06:54:10.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

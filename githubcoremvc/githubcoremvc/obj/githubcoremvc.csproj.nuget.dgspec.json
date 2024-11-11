@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GITHUB\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj": {}
+    "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj": {}
   },
   "projects": {
-    "C:\\GITHUB\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj": {
+    "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GITHUB\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj",
+        "projectUniqueName": "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj",
         "projectName": "githubcoremvc",
-        "projectPath": "C:\\GITHUB\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj",
-        "packagesPath": "C:\\Users\\ganesh.t\\.nuget\\packages\\",
-        "outputPath": "C:\\GITHUB\\githubcoremvc\\githubcoremvc\\obj\\",
+        "projectPath": "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\githubcoremvc\\githubcoremvc.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "E:\\Questpond_Classes\\Devops\\Devops_solution\\githubcoremvc\\githubcoremvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ganesh.t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
